@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About LPU Travels</title>
+        <style>
+
+            @font-face {
+                font-family: Northbl;
+                src: url(contents/fonts/muscular_strength/MUSCULAR\ STRENGTH\ Bold.ttf);
+            }
+
+            body{
+                background-image: url("contents/Images/about.png");
+                position: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 99vh;
+                /* overflow: hidden; */
+            }
+
+            .box{
+                width: 4400px;
+                height: 2000px;
+                background-color: rgba(30, 39, 39, 0.3);
+                box-shadow: 10px 20px 90px black;
+                border-radius: 100px;
+                overflow: hidden;
+                position: absolute;
+                left: 100px;
+            }
+
+            .yt-video{
+                position: absolute;
+                left: 600px;
+                bottom: 80px;
+                border-radius: 100px;
+                box-shadow: 10px 20px 90px black;
+            }
+
+            .heading{
+                position: absolute;
+                font-family: Northbl;
+                font-size: 180px;
+                left: 1750px;
+                bottom: 1620px;
+                color: rgba(29, 14, 48, 0.744);
+                letter-spacing: 10px;
+                text-shadow: 10px 10px 40px #05060291;
+            }
+
+            responsive-container {
+                filter:alpha(opacity=0);  
+                -moz-opacity:0;          
+                -khtml-opacity: 0;       
+                opacity: 0;         
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <h1 class="heading">ABOUT LPU TRAVELS</h1>
+                <div class="responsive-container">
+                    <iframe width="3200" height="1600" class="yt-video"
+                    src="https://www.youtube.com/embed/35npVaFGHMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+    </div>
+    </body>
+</html>

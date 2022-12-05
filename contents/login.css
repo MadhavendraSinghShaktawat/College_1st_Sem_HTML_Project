@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: HeadingFonts;
+    src: url(fonts/blackberry-jam-font/BlackberryJamPersonalUse-rXOB.ttf);
+  }
+
+@font-face {
+    font-family: Muscular;
+    src: url(fonts/muscular_strength/MUSCULAR\ STRENGTH\ Bold.ttf);
+  }
+
+@font-face {
+    font-family: HeadFont1;
+    src: url(fonts/cinderela-font/CinderelaPersonalUseRegular-RDvM.ttf);
+}
+
+@font-face {
+    font-family: Northbl;
+    src: url(fonts/black-north-font/Blacknorthdemo-mLE25.otf);
+}
+
+@font-face {
+    font-family: dirtyBoy;
+    src: url(fonts/dirtyboy-font/Dirtyboy-BxYl.ttf);
+}
+
+@font-face {
+    font-family: Sunny;
+    src: url(fonts/sunny-spells-font/SunnyspellsRegular-MV9ze.otf);
+}
+
+
+body{
+    background-image: url(Images/mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* /* background-size: 100%; */
+    overflow: hidden;
+}
+  .login {
+    width: 1400px;
+    height: 1700px;
+    background-color: rgba(30, 39, 39, 0.3);
+    box-shadow: 10px 20px 90px black;
+    position: absolute;
+    bottom: 200px;
+    left: 2800px;
+    color: white;
+    /* background: #136a8a; */
+    background: 
+      -webkit-linear-gradient(to right, #50514f65, #a4aaac75);
+    background: 
+      linear-gradient(to right, #393a395a, #63686a75);
+    margin: auto;
+    box-shadow: 
+      0px 2px 10px rgba(0,0,0,0.2), 
+      0px 10px 20px rgba(0,0,0,0.3), 
+      0px 30px 60px 1px rgba(0, 0, 0, 0.216);
+    border-radius: 300px;
+    padding: 50px;
+    box-shadow: 10px 20px 90px black;
+  }
+  .login .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login .head .company {
+    font-size: 160px;
+    position: absolute;
+    bottom: 1400px;
+    text-shadow: 10px 20px 40px #232321b0;
+    font-family: Northbl;
+    color: #312c29d0;
+    letter-spacing: 10px;
+    
+  }
+  .login .msg {
+    text-align: center;
+    font-size: 70px;
+    position: absolute;
+    bottom: 1080px;
+    left: 400px;
+    text-shadow: 10px 20px 40px #232321b0;
+    color: #c7c1d9;
+    font-family: Northbl;
+    /* font-family: Sunny; */
+    letter-spacing: 10px;
+  }
+  .login .form input[type=text].text {
+    border: none;
+    background: none;
+    box-shadow: 0px 2px 0px 0px white;
+    text-shadow: 10px 20px 40px #232321b0;
+    width: 90%;
+    color: rgb(255, 255, 255);
+    font-size: 8em;
+    outline: none;
+    position: absolute;
+    bottom: 880px;
+  }
+  .login .form .text::placeholder {
+    color: #D3D3D3;
+  }
+  .login .form input[type=password].password {
+    border: none;
+    background: none;
+    box-shadow: 0px 2px 0px 0px white;
+    text-shadow: 10px 20px 40px #232321b0;
+    width: 90%;
+    color: white;
+    font-size: 6em;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 670px;
+  }
+  .login .form .password::placeholder {
+    color: #D3D3D3;
+  }
+  .login .form .btn-login {
+    position: absolute;
+    bottom: 350px;
+    left: 500px;
+    font-size: 4em;
+    background: none;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0px 0px 0px 2px white;
+    border-radius: 3px;
+    padding: 5px 2em;
+    transition: 0.5s;
+    text-shadow: 10px 20px 40px #232321b0;
+  }
+  .login .form .btn-login:hover {
+    background: white;
+    color: dimgray;
+    transition: 0.5s;
+    border-radius: 100px;
+    
+  }
+  .login .forgot {
+    text-decoration: none;
+    color: rgba(181, 164, 194, 0.539);
+    float: right;
+    position: absolute;
+    bottom: 240px;
+    left: 630px;
+    font-size: 3em;
+    text-shadow: 10px 20px 40px #232321b0;
+  }
+
+  .login .forgot:hover{
+    color: rgba(238, 233, 241, 0.616);;
+  }
+
+  
+  .con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+  }
+  .box{
+    width: 2400px;
+    height: 1800px;
+    background-color: rgba(30, 39, 39, 0.3);
+    box-shadow: 10px 20px 90px black;
+    border-radius: 300px;
+    position: absolute;
+    left: 300px;
+    bottom: 200px;
+}
+
+#para{
+    font-family: Sunny;
+    font-size: 80px;
+    position: absolute;
+    left: 50px;
+    bottom: 400px;
+    color: #ede4e4c9;
+    text-shadow: 10px 20px 40px #232321b0;
+}
+
+#heading1{
+    font-size: 300px;
+    color: #312c29d0;;
+    font-family: Muscular;
+    letter-spacing: 25px;
+    position: absolute;
+    left: 200px;
+    bottom: 1200px;
+    text-shadow: 10px 20px 40px #232321b0;
+}
+
+#heading2{
+    font-size: 200px;
+    color: #4e4a47d0;;
+    position: absolute;
+    left: 200px;
+    bottom: 1000px;
+    text-shadow: 10px 20px 40px #232321b0;
+}

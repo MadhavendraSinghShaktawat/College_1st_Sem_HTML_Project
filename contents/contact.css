@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: HeadingFonts;
+    src: url(fonts/blackberry-jam-font/BlackberryJamPersonalUse-rXOB.ttf);
+  }
+
+@font-face {
+    font-family: Muscular;
+    src: url(fonts/muscular_strength/MUSCULAR\ STRENGTH\ Bold.ttf);
+  }
+
+@font-face {
+    font-family: HeadFont1;
+    src: url(fonts/cinderela-font/CinderelaPersonalUseRegular-RDvM.ttf);
+}
+
+@font-face {
+    font-family: Northbl;
+    src: url(fonts/black-north-font/Blacknorthdemo-mLE25.otf);
+}
+
+@font-face {
+    font-family: dirtyBoy;
+    src: url(fonts/dirtyboy-font/Dirtyboy-BxYl.ttf);
+}
+
+@font-face {
+    font-family: Sunny;
+    src: url(fonts/sunny-spells-font/SunnyspellsRegular-MV9ze.otf);
+}
+
+body{
+    background-image: url(Images/6836720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+    /* overflow: hidden; */
+}
+
+.box{
+    width: 3800px;
+    height: 1800px;
+    background-color: rgba(30, 39, 39, 0.3);
+    box-shadow: 10px 20px 90px black;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+#heading{
+    color: #d4d788a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    font-size: 10vh;
+    font-family: Northbl;
+    /* font-family: Sunny; */
+    /* font-family: dirtyBoy; */
+    /* font-family: HeadFont1; */
+    /* font-family: HeadingFonts; */
+    text-shadow: 10px 20px 90px #050602 ;
+    letter-spacing: 30px;
+    overflow: hidden;
+    
+}
